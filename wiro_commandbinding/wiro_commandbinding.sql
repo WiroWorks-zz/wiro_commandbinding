@@ -1,0 +1,2 @@
+ALTER TABLE `users`
+ADD COLUMN `commandbinds` LONGTEXT NOT NULL DEFAULT '{ "1" : { "tus" : "boş", "komut" : "", "arguman" : "" }, "2" : { "tus" : "boş", "komut" : "", "arguman" : "" }, "3" : { "tus" : "boş", "komut" : "", "arguman" : "" }, "4" : { "tus" : "boş", "komut" : "", "arguman" : "" }, "5" : { "tus" : "boş", "komut" : "", "arguman" : "" } }'
